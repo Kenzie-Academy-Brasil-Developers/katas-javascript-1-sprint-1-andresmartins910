@@ -1,89 +1,118 @@
-function oneThroughTwenty() { 
+// function oneThroughTwenty
+function oneThroughTwenty() {
+  let oneThroughTwenty = [] 
   for (i = 1; i <= 20; i++) {
-    console.log(i)
+    oneThroughTwenty.push(i)
   }
+  return oneThroughTwenty
 }
 
-oneThroughTwenty()
-//call function oneThroughTwenty
+console.log(oneThroughTwenty())
+
+// function evensToTwenty
 
 function evensToTwenty() {
+  let evensToTwenty = []
   for (i = 2; i <= 20; i += 2) {
-    console.log(i)
-  }  
+    evensToTwenty.push(i)
+  }
+  return evensToTwenty  
 }
 
-evensToTwenty()
-//call function evensToTwenty
+console.log(evensToTwenty())
+
+// function oddsToTwenty
 
 function oddsToTwenty() {
+  let oddsToTwenty = []
   for (i = 1; i <= 20; i += 2) {
-    console.log(i)
+    oddsToTwenty.push(i)
   }
+  return oddsToTwenty
 }
 
-oddsToTwenty()
-//call function oddsToTwenty
+console.log(oddsToTwenty())
 
-function multiplesOfFive() {    
+// function multiplesOfFive
+
+function multiplesOfFive() {
+  let multiplesOfFive = []    
   for (i = 5; i <= 100; i += 5) {
-    console.log(i)
+    multiplesOfFive.push(i)
   }
+  return multiplesOfFive
 }
 
-multiplesOfFive()
-// call function multiplesOfFive
+console.log(multiplesOfFive())
+
+//  function squareNumbers
 
 function squareNumbers() {
+  let squareNumbers = []
   for (i = 1 ; i <= 10; i++) {
-    console.log(Math.pow(i, 2))
+    squareNumbers.push(Math.pow(i, 2))
   }
+  return squareNumbers
 }
 
-squareNumbers()
-//call function squareNumbers
+console.log(squareNumbers())
+
+// function countingBackwards
 
 function countingBackwards() {
+  let countingBackwards = []
   for (i = 20; i > 0; i--){
-    console.log(i)
+    countingBackwards.push(i)
   }
+  return countingBackwards
 }
 
-countingBackwards()
-//call function countingBackwards
+console.log(countingBackwards())
+
+// function evenNumbersBackwards
 
 function evenNumbersBackwards() {
+    let evenNumbersBackwards = []
     for (i = 20; i > 0; i -= 2) {
-      console.log(i)
+      evenNumbersBackwards.push(i)
     }
+    return evenNumbersBackwards
 }
 
-evenNumbersBackwards()
-//call function evenNumbersBackwards
+console.log(evenNumbersBackwards())
+
+// function oddNumbersBackwards
 
 function oddNumbersBackwards() {
+  let oddNumbersBackwards = []
   for (i = 19; i > 0; i -= 2) {
-    console.log(i)
+    oddNumbersBackwards.push(i)
   }
+  return oddNumbersBackwards
 }
 
-oddNumbersBackwards()
-//call function oddNumbersBackwards
+console.log(oddNumbersBackwards())
+
+// function multiplesOfFiveBackwards
 
 function multiplesOfFiveBackwards() {
+  let multiplesOfFiveBackwards = []
   for (i = 100; i > 0; i -= 5) {
-    console.log(i)
+    multiplesOfFiveBackwards.push(i)
   }
+  return multiplesOfFiveBackwards
 }
 
-multiplesOfFiveBackwards()
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())
+
+// function squareNumbersBackwards
 
 function squareNumbersBackwards() {
+  let squareNumbersBackwards = []
   for (i = 10 ; i > 0; i--) {
-    console.log(Math.pow(i, 2))
+    squareNumbersBackwards.push(Math.pow(i, 2))
   }
+  return squareNumbersBackwards
 }
 
-squareNumbersBackwards()
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
